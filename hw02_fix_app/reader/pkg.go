@@ -3,13 +3,12 @@ package reader
 import (
 	"encoding/json"
 	"fmt"
+	"hw02_fix_app/types" //nolint:gci
 	"io"
-	"os"
-
-	"hw02_fix_app/types"
+	"os" //nolint:gci
 )
 
-func ReadJSON(filePath string, limit int) ([]types.Employee, error) {
+func ReadJSON(filePath string) ([]types.Employee, error) {
 	f, err := os.Open(filePath)
 	if err != nil {
 		fmt.Printf("Error: %v", err)

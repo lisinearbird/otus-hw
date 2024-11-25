@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-
+	"fmt" //nolint:gci
 	"hw02_fix_app/printer"
 	"hw02_fix_app/reader"
 	"hw02_fix_app/types"
@@ -21,7 +20,7 @@ func main() {
 
 	var staff []types.Employee
 
-	staff, err := reader.ReadJSON(path, -1)
+	staff, err := reader.ReadJSON(path)
 	if err != nil {
 		fmt.Println("Error:", err)
 	}

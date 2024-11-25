@@ -1,8 +1,7 @@
 package printer
 
 import (
-	"fmt"
-
+	"fmt" //nolint:gci
 	"hw02_fix_app/types"
 )
 
