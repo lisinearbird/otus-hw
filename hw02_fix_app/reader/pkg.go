@@ -3,7 +3,7 @@ package reader
 import (
 	"encoding/json"
 	"fmt"
-	"hw02_fix_app/types" //nolint:gci
+	"github.com/lisinearbird/otus-hw/hw02_fix_app/types" //nolint:gci
 	"io"
 	"os" //nolint:gci
 )

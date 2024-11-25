@@ -2,7 +2,7 @@ package printer
 
 import (
 	"fmt" //nolint:gci
-	"hw02_fix_app/types"
+	"github.com/lisinearbird/otus-hw/hw02_fix_app/types"
 )
 
 func PrintStaff(staff []types.Employee) {

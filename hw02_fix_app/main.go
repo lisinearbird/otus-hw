@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt" //nolint:gci
-	"hw02_fix_app/printer"
-	"hw02_fix_app/reader"
-	"hw02_fix_app/types"
+	"github.com/lisinearbird/otus-hw/hw02_fix_app/printer"
+	"github.com/lisinearbird/otus-hw/hw02_fix_app/reader"
+	"github.com/lisinearbird/otus-hw/hw02_fix_app/types"
 )
 
 func main() {
